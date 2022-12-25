@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteBase /
+
+
+RewriteCond %{ENV:HTTPS} !on [NC]
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^flasnetarul\.ro$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.flasnetarul\.ro$
+RewriteRule ^/?$ "https\:\/\/flasnetarul\.ro\/index\.php" [R=301,L]
+

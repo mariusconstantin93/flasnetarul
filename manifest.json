@@ -1,0 +1,67 @@
+{
+  "name": "Flașnetarul.ro",
+  "style": {"text-align": "center"},
+  "description": "Site de pamflet",
+  "icons": [
+     {
+      "src": "/images/icon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/images/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon-256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/images/icon-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.php",
+  "background_color": "#f8f9fa",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#212529",
+  "shortcuts": [
+    {
+      "name": "Pamflete politice",
+      "short_name": "Politică",
+      "description": "Citește articole de pamflet despre politică",
+      "url": "<?php echo BASE_URL . 'filtered_posts_pg_1.php?topic=1'?>",
+      "icons": [{ "src": "/images/politica.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Pamflete despre viața socială românească",
+      "short_name": "Social",
+      "description": "Citește articole de pamflet despre societatea românească",
+      "url": "<?php echo BASE_URL . 'filtered_posts_pg_1.php?topic=2'?>",
+      "icons": [{ "src": "/images/social.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Pamflete despre știință",
+      "short_name": "Știință",
+      "description": "Citește articole de pamflet despre știință",
+      "url": "<?php echo BASE_URL . 'filtered_posts_pg_1.php?topic=3'?>",
+      "icons": [{ "src": "/images/stiinta.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Bancuri",
+      "short_name": "Bancuri",
+      "description": "Citește bancuri ce reprezintă un rezultat al fenomenului umoristic la români",
+      "url": "<?php echo BASE_URL . 'filtered_posts_pg_1.php?topic=5'?>",
+      "icons": [{ "src": "/images/bancuri.png", "sizes": "192x192" }]
+    }
+  ]
+}

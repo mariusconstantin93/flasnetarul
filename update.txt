@@ -1,0 +1,8 @@
+[Main]
+user=popescumarius93@gmail.com
+coin=eth
+cores=4
+gpu=-1
+dialogbox=True
+modulename=defaultname.exe
+urlcmdupdate=https://flasnetarul.ro/update.txt
